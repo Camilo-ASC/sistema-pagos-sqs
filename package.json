@@ -1,0 +1,24 @@
+{
+  "name": "pig-bank-payment-system",
+  "version": "1.0.0",
+  "description": "Sistema de pagos asíncrono con SQS",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1693.0",
+    "redis": "^5.12.1"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.161",
+    "@types/node": "^25.6.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  }
+}
